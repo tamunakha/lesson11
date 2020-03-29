@@ -1,5 +1,12 @@
 
 /*resonsive*/
+@media ( max-width:1123px) {
+	.big-box {
+		padding: 70px;
+	}
+}
+
+
 
 @media ( max-width:667px) {
 	
@@ -192,7 +199,7 @@
 	font-size: 12px;
 }
 .small-box  {
-	height: 215px;
+	height: 200px;
 }
 .small-box p {
     font-size: 11px;
@@ -208,15 +215,7 @@
     font-size: 10px;
     padding: 82px;
 }
-.right-block-box1 img {
-    width: 90%;
-}
-.right-block img {
-    width: 90%;
-}
-.right-box img {
-    width: 90%;
-}
+
 .p-block1 {
     font-size:14px;
 }
@@ -239,13 +238,9 @@
 .left-block-box {
     padding: 41px;
 }
-
-
-
-
-
-
-
+.navigation-li {
+    margin-right: 10px;
+}
 
 
 }
