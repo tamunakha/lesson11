@@ -2,15 +2,53 @@
 /*resonsive*/
 
 @media ( max-width:667px) {
-	.left-block-box {
-		padding: 30px;
-
+	
+	.section-bg {
+		height: 700px;
 	}
 
 	.left-block-box {
-		padding: 30px;
+		padding: 10px;
 	}
+	.block-p1 {
+		font-size: 29px;
+	}
+	.left-block {
+	  padding:10px;
+	}
+  .block-p2 {
+    font-size: 16px;
+	margin-top: 15px;
+    margin-bottom: 40px;
 }
+ .btn {
+ 	font-size: 13px;
+ 	padding: 17px;
+ }
+ .section-box3 p {
+ 	padding: 30px;
+ }
+ .block-pa1 {
+ 	font-size: 29px;
+ }
+ .block-pa2 {
+ 	font-size: 16px;
+	margin-top: 15px;
+    margin-bottom: 40px;
+ }
+ .p-block1 {
+ 	font-size: 29px;
+ }
+ .left-box {
+ 	padding: 10px;
+ }
+ .p-block2 {
+ 	font-size: 16px;
+	margin-top: 15px;
+    margin-bottom: 40px;
+ }
+}
+
 
 
 @media ( max-width:500px) {
@@ -28,239 +66,186 @@
 	}
 }
 
-@media ( max-width:400px) {
-	.left-block-box {
-		padding: 20px;
-
-	}
-
-	.left-block-box {
-		padding: 20px;
-	}
-
-	.left-box {
-		padding: 20px;
-	}
-
-	.header-flex {
-		padding: 25px;
-	}
-	.p-logo {
-		margin-right:15px;
-	}
+@media ( max-width:386px) {
+	.section-bg {
+    height: 500px;
 }
-@media ( max-width:370px) {
-	.left-block-box {
-		padding: 15px;
-
-	}
-
-	.left-block-box {
-		padding: 15px;
-	}
-
-	.left-box {
-		padding: 15px;
-	}
-
-	.header-flex {
-		padding: 20px;
-	}
-	.p-logo {
-		margin-right:10px;
-	}
-	.block-p2 {
-		font-size: 13px;
-		margin-top: 20px;
-		margin-bottom: 19px;
-
-	}
-	.left-block {
-		padding: 10px;
-	}
-	.btn {
-		font-size: 11px;
-		padding: 2px;
-	}
- .block-p1 {
- 	font-size: 20px;
- }
- .section-box3 h4 {
- 	font-size: 86px;
- }
- .block-pa2 {
- 	font-size: 13px;
- 	margin-top: 20px;
- 	margin-bottom: 19px;
- }
- .btn {
- 	font-size: 10px;
- 	padding: 2px;
- }
- .block-pa1 {
- 	font-size: 22px;
- }
- .left-box {
- 	padding: 3px;
- }
- .p-block1 {
- 	font-size: 22px;
- }
- .p-block2 {
- 	font-size: 13px;
- 	margin-top: 20px;
- 	margin-bottom: 19px;
- }
- .p-block2 {
- 	font-size: 13px;
- 	margin-top: 20px;
- 	margin-bottom: 19px;
- }
- .section-bg {
- 	height: 601px;
- }
+.header-flex {
+	padding: 18px;
+}
+.bg-title h1 {
+    font-size: 45px;
+}
+.bg-text p {
+	font-size: 13px;
 }
 
-@media ( max-width:356px) {
-	.left-block-box {
-		padding: 15px;
-
-	}
-
-	.left-block-box {
-		padding: 5px;
-	}
-
-	.left-box {
-		padding: 5px;
-	}
-
-	.header-flex {
-		padding: 5px;
-	}
-	.p-logo {
-		margin-right:5px;
-	}
-	.block-p2 {
-		font-size: 7px;
-		margin-top: 15px;
-		margin-bottom: 15px;
-
-	}
-	.left-block {
-		padding: 2px;
-	}
-	.btn {
-		font-size: 5px;
-		padding: 1px;
-	}
- .block-p1 {
- 	font-size: 5px;
- }
- .section-box3 h4 {
- 	font-size: 80px;
- }
- .block-pa2 {
- 	font-size: 7px;
- 	margin-top: 15px;
- 	margin-bottom: 15px;
- }
- .btn {
- 	font-size: 5px;
- 	padding: 1px;
- }
- .block-pa1 {
- 	font-size: 16px;
- }
- .left-box {
- 	padding: 1px;
- }
- .p-block1 {
- 	font-size: 16px;
- }
- .p-block2 {
- 	font-size: 7px;
- 	margin-top: 15px;
- 	margin-bottom: 15px;
- }
- .p-block2 {
- 	font-size: 7px;
- 	margin-top: 15px;
- 	margin-bottom: 15px;
- }
- .section-bg {
- 	height: 601px;
- }
+.section-flex {
+	flex-wrap: wrap;
+}
+.left-block {
+	width: 100%;
+}
+.right-block {
+	width: 100%
+}
+.left-block {
+    padding: 70px;
+}
+.block-p1 {
+    font-size: 20px;
+}
+.block-p2 {
+    font-size: 13px;
+    margin-top: 28px;
+    margin-bottom: 38px;
+}
+.btn {
+    font-size: 10px;
+    padding: 17px;
+}
+.section-box3 {
+	height: 540px;
+	padding-bottom: 130px;
+}
+.section-box3 h4 {
+    font-size: 60px;
+    text-align: center;
+}
+.section-box3 p {
+	font-size: 15px;
+	padding: 55px;
+}
+.block-pa1 {
+	font-size: 20px;
+}
+.block-pa2 {
+	font-size: 13px;
+    margin-top: 28px;
+    margin-bottom: 38px;
+}
+.left-block-box {
+	 padding: 70px;
+}
+.section-flex-box  {
+	flex-wrap: wrap;
+}
+.left-block-box {
+	width: 100%;
+}
+.right-block-box1 {
+	width: 100%;
+}
+.p-block1 {
+	font-size: 20px;
+}
+.p-block2 {
+	font-size: 13px;
+    margin-top: 28px;
+    margin-bottom: 38px;
+}
+.left-box {
+	 padding: 70px;
+}
+.section-flex {
+	flex-wrap: wrap;
+}
+.right-box {
+	width: 100%;
+}
+.left-box {
+	width: 100%
+}
+}
+@media ( max-width:386px) {
+   .section-bg {
+    height: 448px;
+}
+.bg-title h1 {
+    font-size: 15px;
+}
+.bg-text p {
+    font-size: 10px;
+}
+.header-flex {
+    padding: 0px;
+}
+.block-p1 {
+    font-size: 14px;
+}
+.block-p2 {
+    font-size: 11px;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+.btn {
+    font-size: 7px;
+    padding: 11px;
+}
+.left-block {
+    padding: 41px;
+}
+.section-title {
+	font-size: 12px;
+}
+.grey-bg-section p {
+	font-size: 12px;
+}
+.small-box  {
+	height: 215px;
+}
+.small-box p {
+    font-size: 11px;
+    }
+.section-box3 {
+    height: 300px;
+    padding-bottom: 2px;
+}
+.section-box3 h4 {
+    font-size: 20px;
+}
+.section-box3 p {
+    font-size: 10px;
+    padding: 82px;
+}
+.right-block-box1 img {
+    width: 90%;
+}
+.right-block img {
+    width: 90%;
+}
+.right-box img {
+    width: 90%;
+}
+.p-block1 {
+    font-size:14px;
+}
+.p-block2 {
+    font-size: 11px;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+.left-box {
+     padding: 41px;
+}
+.block-pa1 {
+    font-size: 14px;
+}
+.block-pa2 {
+    font-size: 11px;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+.left-block-box {
+    padding: 41px;
 }
 
-@media ( max-width:336px) {
-	.left-block-box {
-		padding: 2px;
 
-	}
 
-	.left-block-box {
-		padding: 1px;
-	}
 
-	.left-box {
-		padding: 1px;
-	}
 
-	.header-flex {
-		padding: 1px;
-	}
-	.p-logo {
-		margin-right:1px;
-	}
-	.block-p2 {
-		font-size: 1px;
-		margin-top: 5px;
-		margin-bottom: 5px;
 
-	}
-	.left-block {
-		padding: 1px;
-	}
-	.btn {
-		font-size: 1px;
-		padding: 1px;
-	}
- .block-p1 {
- 	font-size: 1px;
- }
- .section-box3 h4 {
- 	font-size: 70px;
- }
- .block-pa2 {
- 	font-size: 1px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- }
- .btn {
- 	font-size: 1px;
- 	padding: 1px;
- }
- .block-pa1 {
- 	font-size: 1px;
- }
- .left-box {1
- 	padding: 1px;
- }
- .p-block1 {
- 	font-size: 1px;
- }
- .p-block2 {
- 	font-size: 1px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- }
- .p-block2 {
- 	font-size: 1px;
- 	margin-top: 5px;
- 	margin-bottom: 5px;
- }
- .section-bg {
- 	height: 601px;
- }
+
+
+
 }
