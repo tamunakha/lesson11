@@ -33,6 +33,14 @@
 .navigation-li {
 	margin-right: 27px;
 }
+.right-wraper {
+	display: flex;
+}
+.burger-icon{
+	margin-left: 10px;
+	font-size: 20px;
+	display: none;
+}
 
 .p-logo{
 	color: white;
@@ -252,14 +260,4 @@
 	text-align:left;
 	margin-top: 44px;
 	margin-bottom: 57px;	
-}
-
-.icon-flex {
-	font-size: 30px;
-	color: blue;
-	
-}
-
-.icon {
-	margin-right: 20px;
 }
